@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8749E35C1C9A6B8E0008CBB6 /* zigStrIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E35B1C9A6B8E0008CBB6 /* zigStrIcon@2x.png */; };
+		8749E35F1C9A6F250008CBB6 /* SCStoryVoiceSliderThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E35D1C9A6F250008CBB6 /* SCStoryVoiceSliderThumb@2x.png */; };
+		8749E3601C9A6F250008CBB6 /* SCStoryVoiceSliderThumb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E35E1C9A6F250008CBB6 /* SCStoryVoiceSliderThumb@3x.png */; };
+		8749E36C1C9A6F470008CBB6 /* SCAssetsLibrary+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3631C9A6F470008CBB6 /* SCAssetsLibrary+Addition.m */; };
+		8749E36D1C9A6F470008CBB6 /* SCNSMutableArray+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3651C9A6F470008CBB6 /* SCNSMutableArray+Addition.m */; };
+		8749E36E1C9A6F470008CBB6 /* SCUIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3671C9A6F470008CBB6 /* SCUIImage+Addition.m */; };
+		8749E36F1C9A6F470008CBB6 /* SCUIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3691C9A6F470008CBB6 /* SCUIView+Addition.m */; };
+		8749E3701C9A6F470008CBB6 /* SCVideoUnity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E36B1C9A6F470008CBB6 /* SCVideoUnity.m */; };
+		8749E3721C9A710D0008CBB6 /* zigBrightlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3711C9A710D0008CBB6 /* zigBrightlight@2x.png */; };
+		8749E3781C9A72E10008CBB6 /* zigBatteryFull@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3731C9A72E10008CBB6 /* zigBatteryFull@3x.png */; };
+		8749E3791C9A72E10008CBB6 /* zigLock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3741C9A72E10008CBB6 /* zigLock@3x.png */; };
+		8749E37A1C9A72E10008CBB6 /* zigMoke@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3751C9A72E10008CBB6 /* zigMoke@3x.png */; };
+		8749E37B1C9A72E10008CBB6 /* zigStrIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3761C9A72E10008CBB6 /* zigStrIcon@3x.png */; };
+		8749E37C1C9A72E10008CBB6 /* zigUnLock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3771C9A72E10008CBB6 /* zigUnLock@3x.png */; };
+		8749E3811C9A77B80008CBB6 /* zigHomeAdd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E37D1C9A77B80008CBB6 /* zigHomeAdd@2x.png */; };
+		8749E3821C9A77B80008CBB6 /* zigHomeAdd@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E37E1C9A77B80008CBB6 /* zigHomeAdd@3x.png */; };
+		8749E3831C9A77B80008CBB6 /* zigHomeDecrese@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E37F1C9A77B80008CBB6 /* zigHomeDecrese@2x.png */; };
+		8749E3841C9A77B80008CBB6 /* zigHomeDecrese@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3801C9A77B80008CBB6 /* zigHomeDecrese@3x.png */; };
+		8749E3871C9A78540008CBB6 /* zigArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3851C9A78540008CBB6 /* zigArrow@2x.png */; };
+		8749E3881C9A78540008CBB6 /* zigArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3861C9A78540008CBB6 /* zigArrow@3x.png */; };
+		8749E38D1C9A7F800008CBB6 /* ZIGSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E38B1C9A7F800008CBB6 /* ZIGSettingsController.m */; };
+		8749E38E1C9A7F800008CBB6 /* ZIGSettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8749E38C1C9A7F800008CBB6 /* ZIGSettingsController.xib */; };
+		8749E3931C9A808C0008CBB6 /* ZIGHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3911C9A808C0008CBB6 /* ZIGHomeController.m */; };
+		8749E3941C9A808C0008CBB6 /* ZIGHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3921C9A808C0008CBB6 /* ZIGHomeController.xib */; };
+		8749E3971C9A823F0008CBB6 /* zigArrowL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3951C9A823F0008CBB6 /* zigArrowL@2x.png */; };
+		8749E3981C9A823F0008CBB6 /* zigArrowL@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3961C9A823F0008CBB6 /* zigArrowL@3x.png */; };
+		8749E39C1C9A88CD0008CBB6 /* ZIGSoundsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E39A1C9A88CD0008CBB6 /* ZIGSoundsController.m */; };
+		8749E39D1C9A88CD0008CBB6 /* ZIGSoundsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8749E39B1C9A88CD0008CBB6 /* ZIGSoundsController.xib */; };
+		8749E3A01C9A8E430008CBB6 /* sigSoundsBig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E39E1C9A8E430008CBB6 /* sigSoundsBig@2x.png */; };
+		8749E3A11C9A8E430008CBB6 /* sigSoundsMute@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749E39F1C9A8E430008CBB6 /* sigSoundsMute@2x.png */; };
+		8749E3A51C9A8F4B0008CBB6 /* SIGLedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3A31C9A8F4B0008CBB6 /* SIGLedController.m */; };
+		8749E3A61C9A8F4B0008CBB6 /* SIGLedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3A41C9A8F4B0008CBB6 /* SIGLedController.xib */; };
+		8749E3AA1C9A90D00008CBB6 /* ZIGScreenColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3A81C9A90D00008CBB6 /* ZIGScreenColorController.m */; };
+		8749E3AB1C9A90D00008CBB6 /* ZIGScreenColorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3A91C9A90D00008CBB6 /* ZIGScreenColorController.xib */; };
+		8749E3B01C9A921B0008CBB6 /* ZIGGeneralController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3AE1C9A921B0008CBB6 /* ZIGGeneralController.m */; };
+		8749E3B11C9A921B0008CBB6 /* ZIGGeneralController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3AF1C9A921B0008CBB6 /* ZIGGeneralController.xib */; };
+		8749E3B51C9A939D0008CBB6 /* ZIGAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3B31C9A939D0008CBB6 /* ZIGAboutController.m */; };
+		8749E3B61C9A939D0008CBB6 /* ZIGAboutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3B41C9A939D0008CBB6 /* ZIGAboutController.xib */; };
+		8749E3BA1C9A95FF0008CBB6 /* ZIGLegalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3B81C9A95FF0008CBB6 /* ZIGLegalController.m */; };
+		8749E3BB1C9A95FF0008CBB6 /* ZIGLegalController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3B91C9A95FF0008CBB6 /* ZIGLegalController.xib */; };
+		8749E3BF1C9A96F50008CBB6 /* ZIGWarrantyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3BD1C9A96F50008CBB6 /* ZIGWarrantyController.m */; };
+		8749E3C01C9A96F50008CBB6 /* ZIGWarrantyController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3BE1C9A96F50008CBB6 /* ZIGWarrantyController.xib */; };
+		8749E3C41C9A9A800008CBB6 /* ZIGTemperatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3C21C9A9A800008CBB6 /* ZIGTemperatureController.m */; };
+		8749E3C51C9A9A800008CBB6 /* ZIGTemperatureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3C31C9A9A800008CBB6 /* ZIGTemperatureController.xib */; };
+		8749E3C91C9A9D300008CBB6 /* TempsControlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3C71C9A9D300008CBB6 /* TempsControlController.m */; };
+		8749E3CA1C9A9D300008CBB6 /* TempsControlController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8749E3C81C9A9D300008CBB6 /* TempsControlController.xib */; };
+		8749E3CC1C9A9E9B0008CBB6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8749E3CB1C9A9E9B0008CBB6 /* QuartzCore.framework */; };
+		8749E3D11C9A9EBD0008CBB6 /* STCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3CE1C9A9EBD0008CBB6 /* STCircleLayer.m */; };
+		8749E3D21C9A9EBD0008CBB6 /* STDotCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749E3D01C9A9EBD0008CBB6 /* STDotCircleLayer.m */; };
+		8771D3E41C87D591004F8C50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8771D3E31C87D591004F8C50 /* main.m */; };
+		8771D3E71C87D591004F8C50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8771D3E61C87D591004F8C50 /* AppDelegate.m */; };
+		8771D3EA1C87D591004F8C50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8771D3E91C87D591004F8C50 /* ViewController.m */; };
+		8771D3ED1C87D591004F8C50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8771D3EB1C87D591004F8C50 /* Main.storyboard */; };
+		8771D3EF1C87D591004F8C50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8771D3EE1C87D591004F8C50 /* Assets.xcassets */; };
+		8771D3F21C87D591004F8C50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8771D3F01C87D591004F8C50 /* LaunchScreen.storyboard */; };
+		8771D3FD1C87D591004F8C50 /* zigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8771D3FC1C87D591004F8C50 /* zigTests.m */; };
+		8771D4081C87D591004F8C50 /* zigUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8771D4071C87D591004F8C50 /* zigUITests.m */; };
+		8771D4261C87D69D004F8C50 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D4161C87D69D004F8C50 /* icon120.png */; };
+		8771D4271C87D69D004F8C50 /* icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D4171C87D69D004F8C50 /* icon180.png */; };
+		8771D4281C87D69D004F8C50 /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D4181C87D69D004F8C50 /* icon58.png */; };
+		8771D4291C87D69D004F8C50 /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D4191C87D69D004F8C50 /* icon80.png */; };
+		8771D42A1C87D69D004F8C50 /* icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D41A1C87D69D004F8C50 /* icon87.png */; };
+		8771D42B1C87D69D004F8C50 /* zigAppBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D41C1C87D69D004F8C50 /* zigAppBg@2x.png */; };
+		8771D42C1C87D69D004F8C50 /* zigBatteryFull@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D41D1C87D69D004F8C50 /* zigBatteryFull@2x.png */; };
+		8771D42D1C87D69D004F8C50 /* zigBatteryMid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D41E1C87D69D004F8C50 /* zigBatteryMid@2x.png */; };
+		8771D42E1C87D69D004F8C50 /* zigBatteryPoor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D41F1C87D69D004F8C50 /* zigBatteryPoor@2x.png */; };
+		8771D42F1C87D69D004F8C50 /* zigFlower@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D4201C87D69D004F8C50 /* zigFlower@2x.png */; };
+		8771D4301C87D69D004F8C50 /* zigLock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D4211C87D69D004F8C50 /* zigLock@2x.png */; };
+		8771D4311C87D69D004F8C50 /* zigMoke@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D4221C87D69D004F8C50 /* zigMoke@2x.png */; };
+		8771D4321C87D69D004F8C50 /* zigUnLock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D4231C87D69D004F8C50 /* zigUnLock@2x.png */; };
+		8771D4331C87D69D004F8C50 /* zigWaterDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D4241C87D69D004F8C50 /* zigWaterDot@2x.png */; };
+		8771D4341C87D69D004F8C50 /* zigYe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771D4251C87D69D004F8C50 /* zigYe@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8771D3F91C87D591004F8C50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8771D3D71C87D591004F8C50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8771D3DE1C87D591004F8C50;
+			remoteInfo = zig;
+		};
+		8771D4041C87D591004F8C50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8771D3D71C87D591004F8C50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8771D3DE1C87D591004F8C50;
+			remoteInfo = zig;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8749E35A1C9A5DDD0008CBB6 /* zig.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zig.pch; sourceTree = "<group>"; };
+		8749E35B1C9A6B8E0008CBB6 /* zigStrIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigStrIcon@2x.png"; sourceTree = "<group>"; };
+		8749E35D1C9A6F250008CBB6 /* SCStoryVoiceSliderThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SCStoryVoiceSliderThumb@2x.png"; sourceTree = "<group>"; };
+		8749E35E1C9A6F250008CBB6 /* SCStoryVoiceSliderThumb@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SCStoryVoiceSliderThumb@3x.png"; sourceTree = "<group>"; };
+		8749E3621C9A6F470008CBB6 /* SCAssetsLibrary+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCAssetsLibrary+Addition.h"; sourceTree = "<group>"; };
+		8749E3631C9A6F470008CBB6 /* SCAssetsLibrary+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCAssetsLibrary+Addition.m"; sourceTree = "<group>"; };
+		8749E3641C9A6F470008CBB6 /* SCNSMutableArray+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCNSMutableArray+Addition.h"; sourceTree = "<group>"; };
+		8749E3651C9A6F470008CBB6 /* SCNSMutableArray+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCNSMutableArray+Addition.m"; sourceTree = "<group>"; };
+		8749E3661C9A6F470008CBB6 /* SCUIImage+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCUIImage+Addition.h"; sourceTree = "<group>"; };
+		8749E3671C9A6F470008CBB6 /* SCUIImage+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCUIImage+Addition.m"; sourceTree = "<group>"; };
+		8749E3681C9A6F470008CBB6 /* SCUIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCUIView+Addition.h"; sourceTree = "<group>"; };
+		8749E3691C9A6F470008CBB6 /* SCUIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCUIView+Addition.m"; sourceTree = "<group>"; };
+		8749E36A1C9A6F470008CBB6 /* SCVideoUnity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCVideoUnity.h; sourceTree = "<group>"; };
+		8749E36B1C9A6F470008CBB6 /* SCVideoUnity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCVideoUnity.m; sourceTree = "<group>"; };
+		8749E3711C9A710D0008CBB6 /* zigBrightlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigBrightlight@2x.png"; sourceTree = "<group>"; };
+		8749E3731C9A72E10008CBB6 /* zigBatteryFull@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigBatteryFull@3x.png"; sourceTree = "<group>"; };
+		8749E3741C9A72E10008CBB6 /* zigLock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigLock@3x.png"; sourceTree = "<group>"; };
+		8749E3751C9A72E10008CBB6 /* zigMoke@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigMoke@3x.png"; sourceTree = "<group>"; };
+		8749E3761C9A72E10008CBB6 /* zigStrIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigStrIcon@3x.png"; sourceTree = "<group>"; };
+		8749E3771C9A72E10008CBB6 /* zigUnLock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigUnLock@3x.png"; sourceTree = "<group>"; };
+		8749E37D1C9A77B80008CBB6 /* zigHomeAdd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigHomeAdd@2x.png"; sourceTree = "<group>"; };
+		8749E37E1C9A77B80008CBB6 /* zigHomeAdd@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigHomeAdd@3x.png"; sourceTree = "<group>"; };
+		8749E37F1C9A77B80008CBB6 /* zigHomeDecrese@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigHomeDecrese@2x.png"; sourceTree = "<group>"; };
+		8749E3801C9A77B80008CBB6 /* zigHomeDecrese@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigHomeDecrese@3x.png"; sourceTree = "<group>"; };
+		8749E3851C9A78540008CBB6 /* zigArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigArrow@2x.png"; sourceTree = "<group>"; };
+		8749E3861C9A78540008CBB6 /* zigArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigArrow@3x.png"; sourceTree = "<group>"; };
+		8749E38A1C9A7F800008CBB6 /* ZIGSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIGSettingsController.h; sourceTree = "<group>"; };
+		8749E38B1C9A7F800008CBB6 /* ZIGSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIGSettingsController.m; sourceTree = "<group>"; };
+		8749E38C1C9A7F800008CBB6 /* ZIGSettingsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZIGSettingsController.xib; sourceTree = "<group>"; };
+		8749E3901C9A808C0008CBB6 /* ZIGHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIGHomeController.h; sourceTree = "<group>"; };
+		8749E3911C9A808C0008CBB6 /* ZIGHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIGHomeController.m; sourceTree = "<group>"; };
+		8749E3921C9A808C0008CBB6 /* ZIGHomeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZIGHomeController.xib; sourceTree = "<group>"; };
+		8749E3951C9A823F0008CBB6 /* zigArrowL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigArrowL@2x.png"; sourceTree = "<group>"; };
+		8749E3961C9A823F0008CBB6 /* zigArrowL@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigArrowL@3x.png"; sourceTree = "<group>"; };
+		8749E3991C9A88CD0008CBB6 /* ZIGSoundsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIGSoundsController.h; sourceTree = "<group>"; };
+		8749E39A1C9A88CD0008CBB6 /* ZIGSoundsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIGSoundsController.m; sourceTree = "<group>"; };
+		8749E39B1C9A88CD0008CBB6 /* ZIGSoundsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZIGSoundsController.xib; sourceTree = "<group>"; };
+		8749E39E1C9A8E430008CBB6 /* sigSoundsBig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sigSoundsBig@2x.png"; sourceTree = "<group>"; };
+		8749E39F1C9A8E430008CBB6 /* sigSoundsMute@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sigSoundsMute@2x.png"; sourceTree = "<group>"; };
+		8749E3A21C9A8F4B0008CBB6 /* SIGLedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIGLedController.h; sourceTree = "<group>"; };
+		8749E3A31C9A8F4B0008CBB6 /* SIGLedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIGLedController.m; sourceTree = "<group>"; };
+		8749E3A41C9A8F4B0008CBB6 /* SIGLedController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SIGLedController.xib; sourceTree = "<group>"; };
+		8749E3A71C9A90D00008CBB6 /* ZIGScreenColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIGScreenColorController.h; sourceTree = "<group>"; };
+		8749E3A81C9A90D00008CBB6 /* ZIGScreenColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIGScreenColorController.m; sourceTree = "<group>"; };
+		8749E3A91C9A90D00008CBB6 /* ZIGScreenColorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZIGScreenColorController.xib; sourceTree = "<group>"; };
+		8749E3AD1C9A921B0008CBB6 /* ZIGGeneralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIGGeneralController.h; sourceTree = "<group>"; };
+		8749E3AE1C9A921B0008CBB6 /* ZIGGeneralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIGGeneralController.m; sourceTree = "<group>"; };
+		8749E3AF1C9A921B0008CBB6 /* ZIGGeneralController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZIGGeneralController.xib; sourceTree = "<group>"; };
+		8749E3B21C9A939D0008CBB6 /* ZIGAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIGAboutController.h; sourceTree = "<group>"; };
+		8749E3B31C9A939D0008CBB6 /* ZIGAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIGAboutController.m; sourceTree = "<group>"; };
+		8749E3B41C9A939D0008CBB6 /* ZIGAboutController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZIGAboutController.xib; sourceTree = "<group>"; };
+		8749E3B71C9A95FF0008CBB6 /* ZIGLegalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIGLegalController.h; sourceTree = "<group>"; };
+		8749E3B81C9A95FF0008CBB6 /* ZIGLegalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIGLegalController.m; sourceTree = "<group>"; };
+		8749E3B91C9A95FF0008CBB6 /* ZIGLegalController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZIGLegalController.xib; sourceTree = "<group>"; };
+		8749E3BC1C9A96F50008CBB6 /* ZIGWarrantyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIGWarrantyController.h; sourceTree = "<group>"; };
+		8749E3BD1C9A96F50008CBB6 /* ZIGWarrantyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIGWarrantyController.m; sourceTree = "<group>"; };
+		8749E3BE1C9A96F50008CBB6 /* ZIGWarrantyController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZIGWarrantyController.xib; sourceTree = "<group>"; };
+		8749E3C11C9A9A800008CBB6 /* ZIGTemperatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIGTemperatureController.h; sourceTree = "<group>"; };
+		8749E3C21C9A9A800008CBB6 /* ZIGTemperatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIGTemperatureController.m; sourceTree = "<group>"; };
+		8749E3C31C9A9A800008CBB6 /* ZIGTemperatureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZIGTemperatureController.xib; sourceTree = "<group>"; };
+		8749E3C61C9A9D300008CBB6 /* TempsControlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempsControlController.h; sourceTree = "<group>"; };
+		8749E3C71C9A9D300008CBB6 /* TempsControlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempsControlController.m; sourceTree = "<group>"; };
+		8749E3C81C9A9D300008CBB6 /* TempsControlController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempsControlController.xib; sourceTree = "<group>"; };
+		8749E3CB1C9A9E9B0008CBB6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8749E3CD1C9A9EBD0008CBB6 /* STCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCircleLayer.h; sourceTree = "<group>"; };
+		8749E3CE1C9A9EBD0008CBB6 /* STCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCircleLayer.m; sourceTree = "<group>"; };
+		8749E3CF1C9A9EBD0008CBB6 /* STDotCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDotCircleLayer.h; sourceTree = "<group>"; };
+		8749E3D01C9A9EBD0008CBB6 /* STDotCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDotCircleLayer.m; sourceTree = "<group>"; };
+		8771D3DF1C87D591004F8C50 /* zig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8771D3E31C87D591004F8C50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8771D3E51C87D591004F8C50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8771D3E61C87D591004F8C50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8771D3E81C87D591004F8C50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8771D3E91C87D591004F8C50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8771D3EC1C87D591004F8C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8771D3EE1C87D591004F8C50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8771D3F11C87D591004F8C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8771D3F31C87D591004F8C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8771D3F81C87D591004F8C50 /* zigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zigTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8771D3FC1C87D591004F8C50 /* zigTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zigTests.m; sourceTree = "<group>"; };
+		8771D3FE1C87D591004F8C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8771D4031C87D591004F8C50 /* zigUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zigUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8771D4071C87D591004F8C50 /* zigUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zigUITests.m; sourceTree = "<group>"; };
+		8771D4091C87D591004F8C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8771D4161C87D69D004F8C50 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		8771D4171C87D69D004F8C50 /* icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon180.png; sourceTree = "<group>"; };
+		8771D4181C87D69D004F8C50 /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		8771D4191C87D69D004F8C50 /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		8771D41A1C87D69D004F8C50 /* icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon87.png; sourceTree = "<group>"; };
+		8771D41C1C87D69D004F8C50 /* zigAppBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigAppBg@2x.png"; sourceTree = "<group>"; };
+		8771D41D1C87D69D004F8C50 /* zigBatteryFull@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigBatteryFull@2x.png"; sourceTree = "<group>"; };
+		8771D41E1C87D69D004F8C50 /* zigBatteryMid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigBatteryMid@2x.png"; sourceTree = "<group>"; };
+		8771D41F1C87D69D004F8C50 /* zigBatteryPoor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigBatteryPoor@2x.png"; sourceTree = "<group>"; };
+		8771D4201C87D69D004F8C50 /* zigFlower@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigFlower@2x.png"; sourceTree = "<group>"; };
+		8771D4211C87D69D004F8C50 /* zigLock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigLock@2x.png"; sourceTree = "<group>"; };
+		8771D4221C87D69D004F8C50 /* zigMoke@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigMoke@2x.png"; sourceTree = "<group>"; };
+		8771D4231C87D69D004F8C50 /* zigUnLock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigUnLock@2x.png"; sourceTree = "<group>"; };
+		8771D4241C87D69D004F8C50 /* zigWaterDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigWaterDot@2x.png"; sourceTree = "<group>"; };
+		8771D4251C87D69D004F8C50 /* zigYe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zigYe@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8771D3DC1C87D591004F8C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8749E3CC1C9A9E9B0008CBB6 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8771D3F51C87D591004F8C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8771D4001C87D591004F8C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8749E3611C9A6F470008CBB6 /* UIKit+Addition */ = {
+			isa = PBXGroup;
+			children = (
+				8749E3621C9A6F470008CBB6 /* SCAssetsLibrary+Addition.h */,
+				8749E3631C9A6F470008CBB6 /* SCAssetsLibrary+Addition.m */,
+				8749E3641C9A6F470008CBB6 /* SCNSMutableArray+Addition.h */,
+				8749E3651C9A6F470008CBB6 /* SCNSMutableArray+Addition.m */,
+				8749E3661C9A6F470008CBB6 /* SCUIImage+Addition.h */,
+				8749E3671C9A6F470008CBB6 /* SCUIImage+Addition.m */,
+				8749E3681C9A6F470008CBB6 /* SCUIView+Addition.h */,
+				8749E3691C9A6F470008CBB6 /* SCUIView+Addition.m */,
+				8749E36A1C9A6F470008CBB6 /* SCVideoUnity.h */,
+				8749E36B1C9A6F470008CBB6 /* SCVideoUnity.m */,
+			);
+			path = "UIKit+Addition";
+			sourceTree = "<group>";
+		};
+		8749E3891C9A7F670008CBB6 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				8749E38A1C9A7F800008CBB6 /* ZIGSettingsController.h */,
+				8749E38B1C9A7F800008CBB6 /* ZIGSettingsController.m */,
+				8749E38C1C9A7F800008CBB6 /* ZIGSettingsController.xib */,
+				8749E3991C9A88CD0008CBB6 /* ZIGSoundsController.h */,
+				8749E39A1C9A88CD0008CBB6 /* ZIGSoundsController.m */,
+				8749E39B1C9A88CD0008CBB6 /* ZIGSoundsController.xib */,
+				8749E3A21C9A8F4B0008CBB6 /* SIGLedController.h */,
+				8749E3A31C9A8F4B0008CBB6 /* SIGLedController.m */,
+				8749E3A41C9A8F4B0008CBB6 /* SIGLedController.xib */,
+				8749E3A71C9A90D00008CBB6 /* ZIGScreenColorController.h */,
+				8749E3A81C9A90D00008CBB6 /* ZIGScreenColorController.m */,
+				8749E3A91C9A90D00008CBB6 /* ZIGScreenColorController.xib */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		8749E38F1C9A80700008CBB6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8749E3CD1C9A9EBD0008CBB6 /* STCircleLayer.h */,
+				8749E3CE1C9A9EBD0008CBB6 /* STCircleLayer.m */,
+				8749E3CF1C9A9EBD0008CBB6 /* STDotCircleLayer.h */,
+				8749E3D01C9A9EBD0008CBB6 /* STDotCircleLayer.m */,
+				8749E3901C9A808C0008CBB6 /* ZIGHomeController.h */,
+				8749E3911C9A808C0008CBB6 /* ZIGHomeController.m */,
+				8749E3921C9A808C0008CBB6 /* ZIGHomeController.xib */,
+				8749E3C11C9A9A800008CBB6 /* ZIGTemperatureController.h */,
+				8749E3C21C9A9A800008CBB6 /* ZIGTemperatureController.m */,
+				8749E3C31C9A9A800008CBB6 /* ZIGTemperatureController.xib */,
+				8749E3C61C9A9D300008CBB6 /* TempsControlController.h */,
+				8749E3C71C9A9D300008CBB6 /* TempsControlController.m */,
+				8749E3C81C9A9D300008CBB6 /* TempsControlController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8749E3AC1C9A92060008CBB6 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8749E3AD1C9A921B0008CBB6 /* ZIGGeneralController.h */,
+				8749E3AE1C9A921B0008CBB6 /* ZIGGeneralController.m */,
+				8749E3AF1C9A921B0008CBB6 /* ZIGGeneralController.xib */,
+				8749E3B21C9A939D0008CBB6 /* ZIGAboutController.h */,
+				8749E3B31C9A939D0008CBB6 /* ZIGAboutController.m */,
+				8749E3B41C9A939D0008CBB6 /* ZIGAboutController.xib */,
+				8749E3B71C9A95FF0008CBB6 /* ZIGLegalController.h */,
+				8749E3B81C9A95FF0008CBB6 /* ZIGLegalController.m */,
+				8749E3B91C9A95FF0008CBB6 /* ZIGLegalController.xib */,
+				8749E3BC1C9A96F50008CBB6 /* ZIGWarrantyController.h */,
+				8749E3BD1C9A96F50008CBB6 /* ZIGWarrantyController.m */,
+				8749E3BE1C9A96F50008CBB6 /* ZIGWarrantyController.xib */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		8771D3D61C87D591004F8C50 = {
+			isa = PBXGroup;
+			children = (
+				8749E3CB1C9A9E9B0008CBB6 /* QuartzCore.framework */,
+				8749E3AC1C9A92060008CBB6 /* General */,
+				8749E38F1C9A80700008CBB6 /* UI */,
+				8749E3891C9A7F670008CBB6 /* settings */,
+				8749E3611C9A6F470008CBB6 /* UIKit+Addition */,
+				8771D4151C87D69D004F8C50 /* appIcon */,
+				8771D41B1C87D69D004F8C50 /* Images */,
+				8771D3E11C87D591004F8C50 /* zig */,
+				8771D3FB1C87D591004F8C50 /* zigTests */,
+				8771D4061C87D591004F8C50 /* zigUITests */,
+				8771D3E01C87D591004F8C50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8771D3E01C87D591004F8C50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8771D3DF1C87D591004F8C50 /* zig.app */,
+				8771D3F81C87D591004F8C50 /* zigTests.xctest */,
+				8771D4031C87D591004F8C50 /* zigUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8771D3E11C87D591004F8C50 /* zig */ = {
+			isa = PBXGroup;
+			children = (
+				8771D3E51C87D591004F8C50 /* AppDelegate.h */,
+				8771D3E61C87D591004F8C50 /* AppDelegate.m */,
+				8771D3E81C87D591004F8C50 /* ViewController.h */,
+				8771D3E91C87D591004F8C50 /* ViewController.m */,
+				8771D3EB1C87D591004F8C50 /* Main.storyboard */,
+				8771D3EE1C87D591004F8C50 /* Assets.xcassets */,
+				8771D3F01C87D591004F8C50 /* LaunchScreen.storyboard */,
+				8771D3F31C87D591004F8C50 /* Info.plist */,
+				8771D3E21C87D591004F8C50 /* Supporting Files */,
+				8749E35A1C9A5DDD0008CBB6 /* zig.pch */,
+			);
+			path = zig;
+			sourceTree = "<group>";
+		};
+		8771D3E21C87D591004F8C50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8771D3E31C87D591004F8C50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8771D3FB1C87D591004F8C50 /* zigTests */ = {
+			isa = PBXGroup;
+			children = (
+				8771D3FC1C87D591004F8C50 /* zigTests.m */,
+				8771D3FE1C87D591004F8C50 /* Info.plist */,
+			);
+			path = zigTests;
+			sourceTree = "<group>";
+		};
+		8771D4061C87D591004F8C50 /* zigUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8771D4071C87D591004F8C50 /* zigUITests.m */,
+				8771D4091C87D591004F8C50 /* Info.plist */,
+			);
+			path = zigUITests;
+			sourceTree = "<group>";
+		};
+		8771D4151C87D69D004F8C50 /* appIcon */ = {
+			isa = PBXGroup;
+			children = (
+				8771D4161C87D69D004F8C50 /* icon120.png */,
+				8771D4171C87D69D004F8C50 /* icon180.png */,
+				8771D4181C87D69D004F8C50 /* icon58.png */,
+				8771D4191C87D69D004F8C50 /* icon80.png */,
+				8771D41A1C87D69D004F8C50 /* icon87.png */,
+			);
+			path = appIcon;
+			sourceTree = "<group>";
+		};
+		8771D41B1C87D69D004F8C50 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8749E39E1C9A8E430008CBB6 /* sigSoundsBig@2x.png */,
+				8749E39F1C9A8E430008CBB6 /* sigSoundsMute@2x.png */,
+				8749E3951C9A823F0008CBB6 /* zigArrowL@2x.png */,
+				8749E3961C9A823F0008CBB6 /* zigArrowL@3x.png */,
+				8749E3851C9A78540008CBB6 /* zigArrow@2x.png */,
+				8749E3861C9A78540008CBB6 /* zigArrow@3x.png */,
+				8749E37D1C9A77B80008CBB6 /* zigHomeAdd@2x.png */,
+				8749E37E1C9A77B80008CBB6 /* zigHomeAdd@3x.png */,
+				8749E37F1C9A77B80008CBB6 /* zigHomeDecrese@2x.png */,
+				8749E3801C9A77B80008CBB6 /* zigHomeDecrese@3x.png */,
+				8749E3731C9A72E10008CBB6 /* zigBatteryFull@3x.png */,
+				8749E3741C9A72E10008CBB6 /* zigLock@3x.png */,
+				8749E3751C9A72E10008CBB6 /* zigMoke@3x.png */,
+				8749E3761C9A72E10008CBB6 /* zigStrIcon@3x.png */,
+				8749E3771C9A72E10008CBB6 /* zigUnLock@3x.png */,
+				8749E3711C9A710D0008CBB6 /* zigBrightlight@2x.png */,
+				8749E35D1C9A6F250008CBB6 /* SCStoryVoiceSliderThumb@2x.png */,
+				8749E35E1C9A6F250008CBB6 /* SCStoryVoiceSliderThumb@3x.png */,
+				8749E35B1C9A6B8E0008CBB6 /* zigStrIcon@2x.png */,
+				8771D41C1C87D69D004F8C50 /* zigAppBg@2x.png */,
+				8771D41D1C87D69D004F8C50 /* zigBatteryFull@2x.png */,
+				8771D41E1C87D69D004F8C50 /* zigBatteryMid@2x.png */,
+				8771D41F1C87D69D004F8C50 /* zigBatteryPoor@2x.png */,
+				8771D4201C87D69D004F8C50 /* zigFlower@2x.png */,
+				8771D4211C87D69D004F8C50 /* zigLock@2x.png */,
+				8771D4221C87D69D004F8C50 /* zigMoke@2x.png */,
+				8771D4231C87D69D004F8C50 /* zigUnLock@2x.png */,
+				8771D4241C87D69D004F8C50 /* zigWaterDot@2x.png */,
+				8771D4251C87D69D004F8C50 /* zigYe@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8771D3DE1C87D591004F8C50 /* zig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8771D40C1C87D591004F8C50 /* Build configuration list for PBXNativeTarget "zig" */;
+			buildPhases = (
+				8771D3DB1C87D591004F8C50 /* Sources */,
+				8771D3DC1C87D591004F8C50 /* Frameworks */,
+				8771D3DD1C87D591004F8C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zig;
+			productName = zig;
+			productReference = 8771D3DF1C87D591004F8C50 /* zig.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8771D3F71C87D591004F8C50 /* zigTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8771D40F1C87D591004F8C50 /* Build configuration list for PBXNativeTarget "zigTests" */;
+			buildPhases = (
+				8771D3F41C87D591004F8C50 /* Sources */,
+				8771D3F51C87D591004F8C50 /* Frameworks */,
+				8771D3F61C87D591004F8C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8771D3FA1C87D591004F8C50 /* PBXTargetDependency */,
+			);
+			name = zigTests;
+			productName = zigTests;
+			productReference = 8771D3F81C87D591004F8C50 /* zigTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8771D4021C87D591004F8C50 /* zigUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8771D4121C87D591004F8C50 /* Build configuration list for PBXNativeTarget "zigUITests" */;
+			buildPhases = (
+				8771D3FF1C87D591004F8C50 /* Sources */,
+				8771D4001C87D591004F8C50 /* Frameworks */,
+				8771D4011C87D591004F8C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8771D4051C87D591004F8C50 /* PBXTargetDependency */,
+			);
+			name = zigUITests;
+			productName = zigUITests;
+			productReference = 8771D4031C87D591004F8C50 /* zigUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8771D3D71C87D591004F8C50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Harry;
+				TargetAttributes = {
+					8771D3DE1C87D591004F8C50 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8771D3F71C87D591004F8C50 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8771D3DE1C87D591004F8C50;
+					};
+					8771D4021C87D591004F8C50 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8771D3DE1C87D591004F8C50;
+					};
+				};
+			};
+			buildConfigurationList = 8771D3DA1C87D591004F8C50 /* Build configuration list for PBXProject "zig" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8771D3D61C87D591004F8C50;
+			productRefGroup = 8771D3E01C87D591004F8C50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8771D3DE1C87D591004F8C50 /* zig */,
+				8771D3F71C87D591004F8C50 /* zigTests */,
+				8771D4021C87D591004F8C50 /* zigUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8771D3DD1C87D591004F8C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8749E3A61C9A8F4B0008CBB6 /* SIGLedController.xib in Resources */,
+				8749E3601C9A6F250008CBB6 /* SCStoryVoiceSliderThumb@3x.png in Resources */,
+				8749E3871C9A78540008CBB6 /* zigArrow@2x.png in Resources */,
+				8749E3971C9A823F0008CBB6 /* zigArrowL@2x.png in Resources */,
+				8749E3A11C9A8E430008CBB6 /* sigSoundsMute@2x.png in Resources */,
+				8749E3841C9A77B80008CBB6 /* zigHomeDecrese@3x.png in Resources */,
+				8749E39D1C9A88CD0008CBB6 /* ZIGSoundsController.xib in Resources */,
+				8771D4291C87D69D004F8C50 /* icon80.png in Resources */,
+				8771D4341C87D69D004F8C50 /* zigYe@2x.png in Resources */,
+				8749E3CA1C9A9D300008CBB6 /* TempsControlController.xib in Resources */,
+				8771D4311C87D69D004F8C50 /* zigMoke@2x.png in Resources */,
+				8771D3F21C87D591004F8C50 /* LaunchScreen.storyboard in Resources */,
+				8771D4321C87D69D004F8C50 /* zigUnLock@2x.png in Resources */,
+				8749E37A1C9A72E10008CBB6 /* zigMoke@3x.png in Resources */,
+				8749E37B1C9A72E10008CBB6 /* zigStrIcon@3x.png in Resources */,
+				8771D3EF1C87D591004F8C50 /* Assets.xcassets in Resources */,
+				8749E3981C9A823F0008CBB6 /* zigArrowL@3x.png in Resources */,
+				8749E3B61C9A939D0008CBB6 /* ZIGAboutController.xib in Resources */,
+				8771D42D1C87D69D004F8C50 /* zigBatteryMid@2x.png in Resources */,
+				8749E3811C9A77B80008CBB6 /* zigHomeAdd@2x.png in Resources */,
+				8749E35C1C9A6B8E0008CBB6 /* zigStrIcon@2x.png in Resources */,
+				8771D4261C87D69D004F8C50 /* icon120.png in Resources */,
+				8771D4281C87D69D004F8C50 /* icon58.png in Resources */,
+				8771D42A1C87D69D004F8C50 /* icon87.png in Resources */,
+				8749E38E1C9A7F800008CBB6 /* ZIGSettingsController.xib in Resources */,
+				8771D4331C87D69D004F8C50 /* zigWaterDot@2x.png in Resources */,
+				8749E3A01C9A8E430008CBB6 /* sigSoundsBig@2x.png in Resources */,
+				8771D42B1C87D69D004F8C50 /* zigAppBg@2x.png in Resources */,
+				8771D3ED1C87D591004F8C50 /* Main.storyboard in Resources */,
+				8749E3B11C9A921B0008CBB6 /* ZIGGeneralController.xib in Resources */,
+				8771D42C1C87D69D004F8C50 /* zigBatteryFull@2x.png in Resources */,
+				8749E3781C9A72E10008CBB6 /* zigBatteryFull@3x.png in Resources */,
+				8749E35F1C9A6F250008CBB6 /* SCStoryVoiceSliderThumb@2x.png in Resources */,
+				8771D4301C87D69D004F8C50 /* zigLock@2x.png in Resources */,
+				8749E3831C9A77B80008CBB6 /* zigHomeDecrese@2x.png in Resources */,
+				8749E3BB1C9A95FF0008CBB6 /* ZIGLegalController.xib in Resources */,
+				8749E3C51C9A9A800008CBB6 /* ZIGTemperatureController.xib in Resources */,
+				8749E3721C9A710D0008CBB6 /* zigBrightlight@2x.png in Resources */,
+				8771D4271C87D69D004F8C50 /* icon180.png in Resources */,
+				8771D42E1C87D69D004F8C50 /* zigBatteryPoor@2x.png in Resources */,
+				8749E3941C9A808C0008CBB6 /* ZIGHomeController.xib in Resources */,
+				8771D42F1C87D69D004F8C50 /* zigFlower@2x.png in Resources */,
+				8749E3821C9A77B80008CBB6 /* zigHomeAdd@3x.png in Resources */,
+				8749E3AB1C9A90D00008CBB6 /* ZIGScreenColorController.xib in Resources */,
+				8749E37C1C9A72E10008CBB6 /* zigUnLock@3x.png in Resources */,
+				8749E3791C9A72E10008CBB6 /* zigLock@3x.png in Resources */,
+				8749E3C01C9A96F50008CBB6 /* ZIGWarrantyController.xib in Resources */,
+				8749E3881C9A78540008CBB6 /* zigArrow@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8771D3F61C87D591004F8C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8771D4011C87D591004F8C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8771D3DB1C87D591004F8C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8749E3D11C9A9EBD0008CBB6 /* STCircleLayer.m in Sources */,
+				8749E36D1C9A6F470008CBB6 /* SCNSMutableArray+Addition.m in Sources */,
+				8749E3931C9A808C0008CBB6 /* ZIGHomeController.m in Sources */,
+				8749E3BA1C9A95FF0008CBB6 /* ZIGLegalController.m in Sources */,
+				8749E39C1C9A88CD0008CBB6 /* ZIGSoundsController.m in Sources */,
+				8749E36E1C9A6F470008CBB6 /* SCUIImage+Addition.m in Sources */,
+				8749E3AA1C9A90D00008CBB6 /* ZIGScreenColorController.m in Sources */,
+				8771D3EA1C87D591004F8C50 /* ViewController.m in Sources */,
+				8771D3E71C87D591004F8C50 /* AppDelegate.m in Sources */,
+				8749E36C1C9A6F470008CBB6 /* SCAssetsLibrary+Addition.m in Sources */,
+				8749E3C41C9A9A800008CBB6 /* ZIGTemperatureController.m in Sources */,
+				8749E3BF1C9A96F50008CBB6 /* ZIGWarrantyController.m in Sources */,
+				8771D3E41C87D591004F8C50 /* main.m in Sources */,
+				8749E3C91C9A9D300008CBB6 /* TempsControlController.m in Sources */,
+				8749E36F1C9A6F470008CBB6 /* SCUIView+Addition.m in Sources */,
+				8749E3A51C9A8F4B0008CBB6 /* SIGLedController.m in Sources */,
+				8749E3B01C9A921B0008CBB6 /* ZIGGeneralController.m in Sources */,
+				8749E38D1C9A7F800008CBB6 /* ZIGSettingsController.m in Sources */,
+				8749E3B51C9A939D0008CBB6 /* ZIGAboutController.m in Sources */,
+				8749E3D21C9A9EBD0008CBB6 /* STDotCircleLayer.m in Sources */,
+				8749E3701C9A6F470008CBB6 /* SCVideoUnity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8771D3F41C87D591004F8C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8771D3FD1C87D591004F8C50 /* zigTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8771D3FF1C87D591004F8C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8771D4081C87D591004F8C50 /* zigUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8771D3FA1C87D591004F8C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8771D3DE1C87D591004F8C50 /* zig */;
+			targetProxy = 8771D3F91C87D591004F8C50 /* PBXContainerItemProxy */;
+		};
+		8771D4051C87D591004F8C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8771D3DE1C87D591004F8C50 /* zig */;
+			targetProxy = 8771D4041C87D591004F8C50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8771D3EB1C87D591004F8C50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8771D3EC1C87D591004F8C50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8771D3F01C87D591004F8C50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8771D3F11C87D591004F8C50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8771D40A1C87D591004F8C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8771D40B1C87D591004F8C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8771D40D1C87D591004F8C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = zig/zig.pch;
+				INFOPLIST_FILE = zig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harry.zig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8771D40E1C87D591004F8C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = zig/zig.pch;
+				INFOPLIST_FILE = zig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harry.zig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8771D4101C87D591004F8C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zigTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harry.zigTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zig.app/zig";
+			};
+			name = Debug;
+		};
+		8771D4111C87D591004F8C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zigTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harry.zigTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zig.app/zig";
+			};
+			name = Release;
+		};
+		8771D4131C87D591004F8C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zigUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harry.zigUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zig;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8771D4141C87D591004F8C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zigUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harry.zigUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zig;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8771D3DA1C87D591004F8C50 /* Build configuration list for PBXProject "zig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8771D40A1C87D591004F8C50 /* Debug */,
+				8771D40B1C87D591004F8C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8771D40C1C87D591004F8C50 /* Build configuration list for PBXNativeTarget "zig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8771D40D1C87D591004F8C50 /* Debug */,
+				8771D40E1C87D591004F8C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8771D40F1C87D591004F8C50 /* Build configuration list for PBXNativeTarget "zigTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8771D4101C87D591004F8C50 /* Debug */,
+				8771D4111C87D591004F8C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8771D4121C87D591004F8C50 /* Build configuration list for PBXNativeTarget "zigUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8771D4131C87D591004F8C50 /* Debug */,
+				8771D4141C87D591004F8C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8771D3D71C87D591004F8C50 /* Project object */;
+}

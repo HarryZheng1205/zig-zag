@@ -1,0 +1,26 @@
+//
+//  zig.pch
+//  zig
+//
+//  Created by ZQQ on 16/3/17.
+//  Copyright © 2016年 Harry. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import "SCUIImage+Addition.h"
+#define deviceScreenWidth   [UIScreen mainScreen].bounds.size.width
+#define deviceScreenHeight  [UIScreen mainScreen].bounds.size.height
+#define deviceScreenFacter  [UIScreen mainScreen].bounds.size.width/320.f
+#define deviceScreenBounds  [UIScreen mainScreen].bounds
+
+#define UIColorRGB(r, g, b)   [UIColor colorWithRed:(float)r/255.0f green:(float)g/255.0f blue:(float)b/255.0f alpha:1.0f]
+#define UIColorRGBA(r, g, b, a)[UIColor colorWithRed:(float)r/255.0f green:(float)g/255.0f blue:(float)b/255.0f alpha:(float)a]
+
+#define STNavigationBarTintColor [UIColor blackColor]
+#define STMenuTextColor UIColorRGB(255, 255, 255)
+#define SCAppTintBlue       [UIColor colorWithRed:40.f/255.f green:134.f/255.f blue:203.f/255.f alpha:1]
+#define SCAppTintYellow UIColorRGB(243, 199, 0)
+
+#endif /* __OBJC__ */
